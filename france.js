@@ -226,7 +226,7 @@ async function drawLineChart() {
         .attr("stroke", "#c7956d")
         .attr("stroke-width", 0.6)
         .attr("stroke-opacity", 0.8)
-        .attr("fill-opacity", 0.7)
+        .attr("fill-opacity", 0.9)
         
     // 6. Draw peripherals
   
