@@ -1,0 +1,131 @@
+{
+    "nodes": [
+        
+        {
+            "id": "CLAUDIE HAIGNERE, EAC",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "FRANCE",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "2"
+        },
+        {
+            "id": "JEAN-FRANÃ§OIS CLERVOY, EAC",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "JEAN-JACQUES FAVIER",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "JEAN-LOUP CHRETIEN",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "JEAN-PIERRE HAIGNERÃ©, EAC",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "LÃ©OPOLD EYHARTS, EAC",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "MICHEL TOGNINI, EAC",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "PATRICK BAUDRY",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "PHILIPPE PERRIN, EAC",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        },
+        {
+            "id": "THOMAS PESQUET",
+            "label": "FRANCE",
+            "group": "7",
+            "level": "1"
+        }
+    ],
+
+        "links": [
+            
+            {
+                "source": "CLAUDIE HAIGNERE, EAC",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "FRANCE",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "JEAN-FRANÃ§OIS CLERVOY, EAC",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "JEAN-JACQUES FAVIER",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "JEAN-LOUP CHRETIEN",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "JEAN-PIERRE HAIGNERÃ©, EAC",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "LÃ©OPOLD EYHARTS, EAC",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "MICHEL TOGNINI, EAC",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "PATRICK BAUDRY",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "PHILIPPE PERRIN, EAC",
+                "target": "FRANCE",
+                "value": "1"
+            },
+            {
+                "source": "THOMAS PESQUET",
+                "target": "FRANCE",
+                "value": "1"
+            }
+        ]
+
+}

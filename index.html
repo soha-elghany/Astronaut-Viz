@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Astronauts</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <!-- <script src="./network2.js"></script> -->
+        <!-- <script src="./line.js"></script> -->
+        <script src="./france.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="intro-block">
+            <!-- <h1> Astronauts </h1> -->
+            <img src="./astronaut.png" class="header" alt="cloud">
+            <p class="author"> By Soha Elghany</p>
+            <p class="intro">The term "Astronaut" comes from the Greek word "space sailor" it was first used in 1928; this refers to every person that experienced travel in space. There is conflicting debate as to what the definition of an 'astronaut' is, this data is based on the definition that an astronaut is someone who has flown to an altitude of 100 km or higher. This particular definition of “outer space” is used by the World Air Sports Federation (FAI), an international record-keeping body for aeronautics and astronautics. </p>
+            <p class="intro">From 1961 till 2020 there are 569 astronauts from 40 different countries who have travelled to space. Majority of them are from the US including the first space tourist - Dennis Tito in 2001.</p>
+        </div>
+
+        <div class="block1">
+        <h3 class="sub1">Astronauts Over Time</h3>
+        <p class="date">1961 - 2020</p>
+        <div id = "wrapper"></div>
+        </div>
+        
+        <div class="cold-war">
+            <div class="cold">
+            <p class="cold-war-text">In the late 1950s a new rivalry began between the <span style="color:#8d93ab">U.S.</span> and the <span style="color:#f05454">Soviet Union</span> - the Cold War. 
+                Space would become another arena between the two countries; this was the Space Race. </p>
+            
+            <p class="cold-war-text">October, 1957, the <span style="color:#f05454">Soviets</span> launched the first artificial satellite and man-made object into the Earth’s orbit. In response the <span style="color:#8d93ab"> U.S.</span>  
+                created NASA in 1958, they launched the first space probe to the moon in 1959. </p>
+
+            <p class="cold-war-text">April 1961, <span style="color:#f05454">Soviet</span> Yuri Gagarin became the first person to orbit Earth. Several months later, Alan Shepard became the first <span style="color:#8d93ab">American </span>in space.</p>
+
+            <p class="cold-war-text">In 1969 marked the first space mission to orbit the moon. On July 20, Neil Armstrong became the first man to walk on the moon; he famously said “one small step for man, one giant leap for mankind.”</p>
+
+            <p class="cold-war-text">By landing on the moon, the <span style="color:#8d93ab">U.S.</span> effectively “won” the space race. The <span style="color:#f05454">Soviets</span> made four failed attempts to launch a moon landing craft between 1969 - 1972. </p>
+        </div>
+            <img src="./mooon.png" class="moon" alt="cloud">
+        </div>
+
+        <div class="block2">
+        <h3 class="sub1">Astronauts by Country</h3>    
+        <h3 class="sub2">Legend</h3>
+            <div id="france"></div>  
+            <p class="text">This infographic shows data on every astronaut that has travelled to space from 1961 - 2020. Each network bundle represernt a country where an astronaut is from. Hover to find out more.
+                Every single dot on the network bundle represent an astronaut that flew into space.</p>
+        </div>
+
+        <!-- <div class="block3"> -->
+        <div id="svg"></div>
+        <!-- </div> -->
+        
+        <div class="end">
+            <h3 class="sub-end">Methodology</h3>
+            <p class="ending">The data source is from the CSIS Aerospace Security International Astronaut Database. 
+                This included information about every astronaut their name, country of origin and date.
+                This database includes all those who have flown to an altitude of 100 kilometers or higher. 
+                This particular definition of “outer space” is used by the World Air Sports Federation (FAI), an international record-keeping body for aeronautics and astronautics.
+                It does not include, those who have flown to altitudes below 100 kilometers or first-time astronauts who were killed in non-space-bound missions without having previously flown to space.
+            </p>    
+        </div>
+        
+    </body>
+
+</html>
